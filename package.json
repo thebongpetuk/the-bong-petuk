@@ -1,0 +1,17 @@
+{
+  "name": "the-bong-petuk-public-portfolio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace @bong/portfolio",
+    "build": "npm run build --workspace @bong/portfolio"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
